@@ -1,0 +1,7 @@
+name = "precompile-bug-repro"
+version = "0.1.0"
+defaultTargets = ["PrecompileBugRepro"]
+
+[[lean_lib]]
+name = "PrecompileBugRepro"
+precompileModules = true
